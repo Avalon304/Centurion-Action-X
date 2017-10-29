@@ -32,12 +32,24 @@
 					<collisionFlags>0</collisionFlags>
 					<materialKind>0</materialKind>
 					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>true</Bool>
+					</property>
+					<property>
 						normalMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_ANM.dds</Texture>
+						<Texture>vehicles/british/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_ANM.dds</Texture>
 					</property>
 					<property>
 						diffuseMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_AM.dds</Texture>
+						<Texture>vehicles/british/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_AM.dds</Texture>
 					</property>
 					<property>
 						metallicDetailMap
@@ -45,15 +57,19 @@
 					</property>
 					<property>
 						metallicGlossMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_GMM.dds</Texture>
+						<Texture>vehicles/british/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_GMM.dds</Texture>
 					</property>
 					<property>
 						excludeMaskAndAOMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_AO.dds</Texture>
+						<Texture>vehicles/british/GB86_Centurion_Action_X/Centurion_Action_X_turret_01_AO.dds</Texture>
 					</property>
 					<property>
 						alphaReference
 						<Int>64</Int>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 4.20822 0.000000 0.000000</Vector4>
 					</property>
 					<property>
 						g_detailPowerGloss
@@ -71,22 +87,6 @@
 						g_detailPower
 						<Float>5</Float>
 					</property>
-					<property>
-						g_detailUVTiling
-						<Vector4>8.41644 4.20822 0.000000 0.000000</Vector4>
-					</property>
-					<property>
-						g_useDetailMetallic
-						<Bool>true</Bool>
-					</property>
-					<property>
-						g_useNormalPackDXT1
-						<Bool>false</Bool>
-					</property>
-					<property>
-						alphaTestEnable
-						<Bool>true</Bool>
-					</property>
 				</material>
 				<groupOrigin>-0.0022899999748915434 1.430027961730957 -0.556318998336792</groupOrigin>
 			</primitiveGroup>
@@ -98,12 +98,20 @@
 					<collisionFlags>0</collisionFlags>
 					<materialKind>0</materialKind>
 					<property>
+						g_useDetailMetallic
+						<Bool>	true	</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>	false	</Bool>
+					</property>
+					<property>
 						normalMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M41_Bulldog_Turret_02_ANM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M41_Bulldog_Turret_02_ANM.dds</Texture>
 					</property>
 					<property>
 						diffuseMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M41_Bulldog_Turret_02_AM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M41_Bulldog_Turret_02_AM.dds</Texture>
 					</property>
 					<property>
 						metallicDetailMap
@@ -111,11 +119,15 @@
 					</property>
 					<property>
 						metallicGlossMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M41_Bulldog_Turret_02_GMM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M41_Bulldog_Turret_02_GMM.dds</Texture>
 					</property>
 					<property>
 						excludeMaskAndAOMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M41_Bulldog_Turret_02_AO.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M41_Bulldog_Turret_02_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>3.50685 3.50685 0.000000 0.000000</Vector4>
 					</property>
 					<property>
 						g_detailPowerGloss
@@ -133,18 +145,6 @@
 						g_detailPower
 						<Float>	5	</Float>
 					</property>
-					<property>
-						g_detailUVTiling
-						<Vector4>3.50685 3.50685 0.000000 0.000000</Vector4>
-					</property>
-					<property>
-						g_useDetailMetallic
-						<Bool>	true	</Bool>
-					</property>
-					<property>
-						g_useNormalPackDXT1
-						<Bool>	false	</Bool>
-					</property>
 				</material>
 				<groupOrigin>-0.003610 1.397732 -0.510045</groupOrigin>
 			</primitiveGroup>
@@ -156,12 +156,24 @@
 					<collisionFlags>0</collisionFlags>
 					<materialKind>0</materialKind>
 					<property>
+						g_useDetailMetallic
+						<Bool>	true	</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>	false	</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>
 						normalMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M18_Hellcat_turret_02_ANM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M18_Hellcat_turret_02_ANM.dds</Texture>
 					</property>
 					<property>
 						diffuseMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M18_Hellcat_turret_02_AM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M18_Hellcat_turret_02_AM.dds</Texture>
 					</property>
 					<property>
 						metallicDetailMap
@@ -169,11 +181,15 @@
 					</property>
 					<property>
 						metallicGlossMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M18_Hellcat_turret_02_GMM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M18_Hellcat_turret_02_GMM.dds</Texture>
 					</property>
 					<property>
 						excludeMaskAndAOMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M18_Hellcat_turret_02_AO.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M18_Hellcat_turret_02_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 3.50685 0.000000 0.000000</Vector4>
 					</property>
 					<property>
 						g_detailPowerGloss
@@ -191,22 +207,6 @@
 						g_detailPower
 						<Float>	5	</Float>
 					</property>
-					<property>
-						g_detailUVTiling
-						<Vector4>7.0137 3.50685 0.000000 0.000000</Vector4>
-					</property>
-					<property>
-						g_useDetailMetallic
-						<Bool>	true	</Bool>
-					</property>
-					<property>
-						g_useNormalPackDXT1
-						<Bool>	false	</Bool>
-					</property>
-					<property>
-						alphaTestEnable
-						<Bool>	false	</Bool>
-					</property>
 				</material>
 				<groupOrigin>0.036903 0.567303 -0.461517</groupOrigin>
 			</primitiveGroup>
@@ -218,12 +218,28 @@
 					<collisionFlags>0</collisionFlags>
 					<materialKind>0</materialKind>
 					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>true</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>true</Bool>
+					</property>
+					<property>
 						normalMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M48A1_turret_01_ANM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M48A1_turret_01_ANM.dds</Texture>
 					</property>
 					<property>
 						diffuseMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M48A1_turret_01_AM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M48A1_turret_01_AM.dds</Texture>
 					</property>
 					<property>
 						metallicDetailMap
@@ -231,15 +247,19 @@
 					</property>
 					<property>
 						metallicGlossMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M48A1_turret_01_GMM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M48A1_turret_01_GMM.dds</Texture>
 					</property>
 					<property>
 						excludeMaskAndAOMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/M48A1_turret_01_AO.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/M48A1_turret_01_AO.dds</Texture>
 					</property>
 					<property>
 						alphaReference
 						<Int>64</Int>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 3.50685 0.000000 0.000000</Vector4>
 					</property>
 					<property>
 						g_detailPowerGloss
@@ -256,26 +276,6 @@
 					<property>
 						g_detailPower
 						<Float>5</Float>
-					</property>
-					<property>
-						g_detailUVTiling
-						<Vector4>7.0137 3.50685 0.000000 0.000000</Vector4>
-					</property>
-					<property>
-						g_useDetailMetallic
-						<Bool>true</Bool>
-					</property>
-					<property>
-						g_useNormalPackDXT1
-						<Bool>false</Bool>
-					</property>
-					<property>
-						alphaTestEnable
-						<Bool>true</Bool>
-					</property>
-					<property>
-						doubleSided
-						<Bool>true</Bool>
 					</property>
 				</material>
 				<groupOrigin>0.04077500104904175 1.0416779518127441 -0.5283679962158203</groupOrigin>
@@ -288,12 +288,20 @@
 					<collisionFlags>0</collisionFlags>
 					<materialKind>0</materialKind>
 					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
 						normalMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Cromwell_Berlin_hull_01_ANM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/Cromwell_Berlin_hull_01_ANM.dds</Texture>
 					</property>
 					<property>
 						diffuseMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Cromwell_Berlin_hull_01_AM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/Cromwell_Berlin_hull_01_AM.dds</Texture>
 					</property>
 					<property>
 						metallicDetailMap
@@ -301,11 +309,15 @@
 					</property>
 					<property>
 						metallicGlossMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Cromwell_Berlin_hull_01_GMM.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/Cromwell_Berlin_hull_01_GMM.dds</Texture>
 					</property>
 					<property>
 						excludeMaskAndAOMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Cromwell_Berlin_hull_01_AO.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB24_Centurion_Mk9/Cromwell_Berlin_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4>
 					</property>
 					<property>
 						g_detailPowerGloss
@@ -322,18 +334,6 @@
 					<property>
 						g_detailPower
 						<Float>5</Float>
-					</property>
-					<property>
-						g_detailUVTiling
-						<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4>
-					</property>
-					<property>
-						g_useDetailMetallic
-						<Bool>true</Bool>
-					</property>
-					<property>
-						g_useNormalPackDXT1
-						<Bool>false</Bool>
 					</property>
 				</material>
 				<groupOrigin>-0.022127000615000725 0.19430899620056152 -0.046925000846385956</groupOrigin>
@@ -345,50 +345,6 @@
 					<fx>shaders/std_effects/PBS_tank.fx</fx>
 					<collisionFlags>0</collisionFlags>
 					<materialKind>0</materialKind>
-					<property>
-						normalMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Kranvagn_turret_01_ANM.dds</Texture>
-					</property>
-					<property>
-						diffuseMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Kranvagn_turret_01_AM.dds</Texture>
-					</property>
-					<property>
-						metallicDetailMap
-						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
-					</property>
-					<property>
-						metallicGlossMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Kranvagn_turret_01_GMM.dds</Texture>
-					</property>
-					<property>
-						excludeMaskAndAOMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Kranvagn_turret_01_AO.dds</Texture>
-					</property>
-					<property>
-						alphaReference
-						<Int>0</Int>
-					</property>
-					<property>
-						g_detailPowerGloss
-						<Float>0.35</Float>
-					</property>
-					<property>
-						g_detailPowerAlbedo
-						<Float>0.11</Float>
-					</property>
-					<property>
-						g_maskBias
-						<Float>0.22</Float>
-					</property>
-					<property>
-						g_detailPower
-						<Float>5</Float>
-					</property>
-					<property>
-						g_detailUVTiling
-						<Vector4>2.10411 4.20822 0.000000 0.000000</Vector4>
-					</property>
 					<property>
 						g_useDetailMetallic
 						<Bool>true</Bool>
@@ -404,6 +360,50 @@
 					<property>
 						doubleSided
 						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/sweden/S16_Kranvagn/Kranvagn_turret_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/sweden/S16_Kranvagn/Kranvagn_turret_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/sweden/S16_Kranvagn/Kranvagn_turret_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/sweden/S16_Kranvagn/Kranvagn_turret_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>0</Int>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>2.10411 4.20822 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
 					</property>
 				</material>
 				<groupOrigin>0.0 0.5932170152664185 0.07241199910640717</groupOrigin>
