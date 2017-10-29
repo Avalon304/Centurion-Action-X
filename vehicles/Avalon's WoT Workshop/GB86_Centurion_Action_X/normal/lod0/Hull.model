@@ -1,0 +1,10 @@
+<hull.model>
+  <tank>	true	</tank>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.85416 -0.744647 -3.72986</min>
+    <max>1.85416 0.73087 4.01053</max>
+  </visibilityBox>
+  <nodefullVisual>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/normal/lod0/Hull</nodefullVisual>
+</hull.model>
