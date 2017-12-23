@@ -106,6 +106,8 @@
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Caernarvon_AX_guns_AO.dds</Texture>
 					</property>
+					<property>colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Caernarvon_AX_guns_ID.dds</Texture></property>
 					<property>
 						g_detailPowerGloss
 						<Float>0.35</Float>
@@ -168,6 +170,8 @@
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_guns_AO.dds</Texture>
 					</property>
+					<property>colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_guns_ID.dds</Texture></property>
 					<property>
 						g_detailPowerGloss
 						<Float>0.35</Float>
