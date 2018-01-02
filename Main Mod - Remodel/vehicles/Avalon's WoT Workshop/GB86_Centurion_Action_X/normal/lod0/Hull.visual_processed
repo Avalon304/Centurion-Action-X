@@ -256,6 +256,10 @@
 						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Strv_S1_hull_02_AO.dds</Texture>
 					</property>
 					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Strv_S1_hull_02_ID.dds</Texture>
+					</property>
+					<property>
 						alphaReference
 						<Int>64</Int>
 					</property>
@@ -526,6 +530,10 @@
 					<property>
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Strv_81_sabaton_Hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Strv_81_sabaton_Hull_01_ID.dds</Texture>
 					</property>
 					<property>
 						alphaReference
