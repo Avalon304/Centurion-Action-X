@@ -194,6 +194,10 @@
 						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Black_Prince_hull_01_AO.dds</Texture>
 					</property>
 					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_hull_01_ID.dds</Texture>
+					</property>
+					<property>
 						g_detailPowerGloss
 						<Float>0.35</Float>
 					</property>
@@ -328,6 +332,10 @@
 					<property>
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Churchill_LL_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB86_Centurion_Action_X/Centurion_Action_X_hull_01_ID.dds</Texture>
 					</property>
 					<property>
 						g_detailPowerGloss
